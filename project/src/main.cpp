@@ -78,14 +78,11 @@ void setup() {
 	A[0][0] = c*cosine;
 	A[1][0] = c*sine;
 
-        //request->send(200, "text/html", "The Coordinates of A are " + String(A[0][0]) + "<br>" + String(A[1][0]) + "<br><a href=\"/\">Return to Home Page</a>");}
 
         request->send(200, "text/html", "The Coordinates of A are <br>[" + String(A[0][0]) + "]<br>[" + String(A[1][0]) + "]<br><a href=\"/\">Return to Home Page</a>");}
-        
-	//request->send(200, "text/html", "The Coordinates of A are [" + String(A[0][0]) + "; " + String(A[1][0]) + "] <br><a href=\"/\">Return to Home Page</a>");}
 
 
-	//request->send(200, "text/html", "The Coordinates of A are " + String(A[0][0]) + " " + String(A[1][0])+" <br><a href=\"/\">Return to Home Page</a>");}
+	
 
 );   
 
